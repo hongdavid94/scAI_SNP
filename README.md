@@ -14,7 +14,7 @@ Because this repository includes large files (over 100MB), you may use [git-lfs]
 ### Step 1: installation of scAI-SNP
 
 ```{bash}
-git clone https://github.com/hongdavid94/scAI_SNP.git
+git clone -b convex --single-branch https://github.com/hongdavid94/scAI_SNP.git
 cd scAI_SNP
 pip install .
 ```
